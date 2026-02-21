@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  background-color: #f8fafc;
+}
+
+@theme {
+  --color-pastel-blue: #AEC6CF;
+  --color-pastel-green: #77DD77;
+  --color-pastel-pink: #FFB7CE;
+  --color-pastel-purple: #B39EB5;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.neumorph {
+  background: #f8fafc;
+  box-shadow: 20px 20px 60px #d3d5d6,
+             -20px -20px 60px #ffffff;
+}
